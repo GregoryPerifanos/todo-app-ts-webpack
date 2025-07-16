@@ -29,7 +29,7 @@ It uses Webpack to bundle everything, Babel for compatibility, and TypeScript fo
     npm run start
 Webpack will automatically open your browser and serve the app locally.
 
-Folder Structure:
+## Folder Structure:
 
 todo-app-ts-webpack/
 ├── src/
