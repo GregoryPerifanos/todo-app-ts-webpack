@@ -29,22 +29,6 @@ It uses Webpack to bundle everything, Babel for compatibility, and TypeScript fo
     npm run start
 Webpack will automatically open your browser and serve the app locally.
 
-## Folder Structure:
-
-todo-app-ts-webpack/
-├── src/
-│   ├── script.ts
-│   ├── style.css
-│   ├── index.html
-│   ├── declarations.d.ts
-│   └── images/
-├── dist/ (auto-generated)
-├── webpack.config.js
-├── tsconfig.json
-├── .babelrc
-├── package.json
-├── .gitignore
-
  ## What I Learned Doing This
 - Setting up Webpack with TypeScript and Babel from scratch
 
