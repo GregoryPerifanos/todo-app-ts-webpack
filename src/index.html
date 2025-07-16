@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body class="light-theme">
+  <div class="background"></div>
+
+  <main class="todo-app">
+    <header class="todo-header">
+      <h1>TODO</h1>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <img id="theme-icon" />
+      </button>
+    </header>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Create a new todo..." autocomplete="off" />
+    </form>
+
+    <ul class="todo-list" id="todo-list"></ul>
+
+    <div class="todo-footer" id="todo-footer">
+      <span id="items-left">0 items left</span>
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="active">Active</button>
+        <button class="filter" data-filter="completed">Completed</button>
+      </div>
+      <button id="clear-completed">Clear Completed</button>
+    </div>
+
+    <p class="drag-note">Drag and drop to reorder list</p>
+  </main>
+</body>
+</html>
